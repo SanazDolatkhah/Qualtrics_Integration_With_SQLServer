@@ -16,4 +16,4 @@ I build data pipelines and reporting workflows that turn Qaultrics raw survey da
 
 ## Get in touch
 - Email: sanaz.dolatkhah@Sgmail.com
-- LinkedIn: [*(add your link)*](https://www.linkedin.com/in/sanaz-dolatkhah)
+- LinkedIn: [*((https://www.linkedin.com/in/sanaz-dolatkhah))*]
