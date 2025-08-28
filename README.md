@@ -1,8 +1,7 @@
 # Qualtrics to SQL Server Integration
 ## Introduction
 
-surveys. However, Power BI has no direct connector to Qualtrics. The only options provided by Qualtrics are manual exports (CSV, Excel, or SPSS).
-
+As a Data Analyst, part of my work involves building Power BI dashboards using data coming from Qualtrics surveys. However, Power BI has no direct connector to Qualtrics. The only options provided by Qualtrics are manual exports (CSV, Excel, or SPSS).
 This meant that every time I needed to build or update a dashboard, I had to:
 
 - Export the survey results manually from Qualtrics.
