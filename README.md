@@ -148,3 +148,8 @@ If you need more details about the advanced features (translations, matrix handl
 ## License
 MIT License
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Last Commit](https://img.shields.io/github/last-commit/SanazDolatkhah/Qualtrics_Integration_With_SQLServere)
+
+
