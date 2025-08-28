@@ -1,4 +1,7 @@
 # Qualtrics to SQL Server Integration
+
+![1753240859674](https://github.com/user-attachments/assets/a17cbe96-9b5b-4524-bcb3-e39ee2c2ec57)
+
 ## Introduction
 
 As a **Data Analyst**, part of my work involves building Power BI dashboards using data coming from Qualtrics surveys. However, Power BI has no direct connector to Qualtrics. The only options provided by Qualtrics are manual exports (CSV, Excel, or SPSS).
