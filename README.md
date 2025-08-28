@@ -73,7 +73,7 @@ This allows you to understand the integration logic without exposing sensitive c
 
 
 ### Prerequisites
-- Python 3.9+
+- Python
 - Qualtrics API Token
 - SQL Server instance
 
