@@ -142,7 +142,7 @@ python main.py
 ## Contact
 If you need more details about the advanced features (translations, matrix handling, display logic, etc.), feel free to reach out.
 
-- Email: sanaz.dolatkhah@Sgmail.com
+- Email: sanaz.dolatkhah@gmail.com
 - LinkedIn: *https://www.linkedin.com/in/sanaz-dolatkhah*
 
 ## License
