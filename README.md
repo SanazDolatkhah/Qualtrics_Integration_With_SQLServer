@@ -144,13 +144,7 @@ If you need more details about the advanced features (translations, matrix handl
 
 - Email: sanaz.dolatkhah@gmail.com
 - LinkedIn: *https://www.linkedin.com/in/sanaz-dolatkhah*
-- 
----
-⚠️ **Disclaimer**  
-This project is an early release and still under active development. The core integration works, but packaging, database schema scripts, tests, and documentation are not yet complete. Use at your own risk in production environments. Contributions, feedback, and suggestions are very welcome!
----
-
-
+  
 ## License
 MIT License
 
