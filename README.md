@@ -121,8 +121,8 @@ CREATE TABLE [dbo].[DimQuestion](
 
 ## Setup
 <pre>
-git clone https://github.com/your-repo/qualtrics-sql-integration.git
-cd qualtrics-sql-integration
+git clone https://github.com/SanazDolatkhah/Qualtrics_Integration_With_SQLServer.git
+cd Qualtrics_Integration_With_SQLServer
 pip install -r requirements.txt
 </pre>
 
