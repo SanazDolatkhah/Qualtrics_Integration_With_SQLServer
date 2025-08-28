@@ -69,9 +69,51 @@ For confidentiality reasons, the version here on GitHub is a simplified demo tha
 
 This allows you to understand the integration logic without exposing sensitive company data.
 
+The demo project contains a main script (main.py) which coordinates two key modules:
+
+- Get_Survey_Responses.py
+- Get_Survey_Questions.py
+
+  ### Get_Survey_Responses.py
+  - Each Qualtrics survey can have a different structure (different number of questions, different formats).
+  - To handle this, the script accepts a parameter for the destination table where responses should be stored.
+  - The destination table name is passed as input, but the table itself is not pre-created. Instead, the script automatically generates the table schema based on the survey structure (number of questions, data types, etc.).
+  - For every run:
+    - The destination table is dropped and recreated dynamically.
+    - Responses for the given Survey ID are inserted into this newly created table.
+  - Parameters required include:
+    - SQL Server name
+    - SQL Server Database name
+    - SQL Server username
+    - SQL Server password
+    - SQL Server destination table
+    - Qualtrics survey_id
+    - Qualtrics api token
+    - Qualtrics data center
+
+### Get_Survey_Questions.py
+- A dedicated table called DimQuestion is created in SQL Server.
+- The script fetches all questions for a given survey (including metadata like question text, type).
+
+#### Table DimQuestion
+<pre>
+  
+CREATE TABLE [dbo].[DimQuestion](
+	[SurveyId] [nvarchar](100) NOT NULL,
+	[QuestionId] [nvarchar](50) NOT NULL,
+	[QuestionNumber] [nvarchar](50) NOT NULL,
+	[QuestionType] [nvarchar](50) NOT NULL,
+	[Question] [nvarchar](max) NOT NULL,
+ CONSTRAINT [PK_DimQuestion] PRIMARY KEY CLUSTERED 
+(
+	[SurveyId] ASC,
+	[QuestionId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+</pre>
+
 ## Getting Started
-
-
 ### Prerequisites
 - Python
 - Qualtrics API Token
