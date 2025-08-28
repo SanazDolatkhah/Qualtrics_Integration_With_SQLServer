@@ -74,7 +74,7 @@ The demo project contains a main script (main.py) which coordinates two key modu
 - Get_Survey_Responses.py
 - Get_Survey_Questions.py
 
-  ### Get_Survey_Responses.py
+### Get_Survey_Responses.py
   - Each Qualtrics survey can have a different structure (different number of questions, different formats).
   - To handle this, the script accepts a parameter for the destination table where responses should be stored.
   - The destination table name is passed as input, but the table itself is not pre-created. Instead, the script automatically generates the table schema based on the survey structure (number of questions, data types, etc.).
