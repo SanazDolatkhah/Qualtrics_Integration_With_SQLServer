@@ -29,6 +29,8 @@ Connects to the Qualtrics API.
 - Extracts answer choices (multi-language support: English & French).
 - Retrieves survey display logic.
 - Inserts the structured data directly into SQL Server.
+- Survey Summary in pdf and word formats (multi-language support: English & French).
+- Power BI template for near real-time connection to Qualtrics surveys
   
 Now, Power BI can be connected directly to SQL Server, resulting in dynamic, always up-to-date dashboards without any manual intervention.
 
