@@ -1,6 +1,6 @@
 # Qualtrics to SQL Server Integration
 
-![1753240859674](https://github.com/user-attachments/assets/a17cbe96-9b5b-4524-bcb3-e39ee2c2ec57)
+<img width="288" height="302" alt="Qualtrics Integration" src="https://github.com/user-attachments/assets/2159b1e4-f22b-4324-9229-eb57e2af4562" />
 
 ## Introduction
 
